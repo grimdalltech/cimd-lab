@@ -1,0 +1,8 @@
+{
+  "client_id": "https://grimdalltech.github.io/cimd-lab/client-min.json",
+  "client_name": "Acme MCP Client Min",
+  "redirect_uris": ["https://grimdalltech.github.io/cimd-lab/callback.html"],
+  "grant_types": ["authorization_code"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}

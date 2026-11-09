@@ -1,0 +1,8 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/grimdalltech/cimd-lab@main/client-jsd.json",
+  "client_name": "Acme MCP Client JSD",
+  "redirect_uris": ["https://grimdalltech.github.io/cimd-lab/callback.html"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
