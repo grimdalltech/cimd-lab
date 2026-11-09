@@ -1,0 +1,13 @@
+{
+  "client_id": "https://grimdalltech.github.io/cimd-lab/client.json",
+  "client_name": "Acme MCP Client",
+  "client_uri": "https://grimdalltech.github.io/cimd-lab/",
+  "redirect_uris": [
+    "https://grimdalltech.github.io/cimd-lab/callback.html",
+    "http://127.0.0.1:8765/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid mcp offline_access"
+}
